@@ -1,0 +1,8 @@
+BIOS Disassembly Ninjutsu Uncovered Errata:
+-------------------------------------------
+
+1. The address aliasing mentioned in Chapter 4 section 4.1.1 page 4 (the paging messed-up in the PDF) should cover both E-segment and F-Segment (E_0000h-F_FFFFh), not just the last 64-KB segment. Somebody used a sort of CPU logic analyzer to confirm this fact.
+
+2. Chapter 9 section 9.2: The Flash_n_burn utility mentioned there is now named flashrom and become a quite independent part of the Coreboot (previously LinuxBIOS) project. See: http://flashrom.org/Flashrom. The latest version of the code is now at: https://github.com/pinczakko/winflashrom
+
+
