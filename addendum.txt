@@ -5,4 +5,6 @@ BIOS Disassembly Ninjutsu Uncovered Errata:
 
 2. Chapter 9 section 9.2: The Flash_n_burn utility mentioned there is now named flashrom and become a quite independent part of the Coreboot (previously LinuxBIOS) project. See: http://flashrom.org/Flashrom. The latest version of the code is now at: https://github.com/pinczakko/winflashrom
 
-
+Note on spec files:
+-------------------
+Eventually, I will add more BIOS-related public spec files here because some people look for them while they started to be "missing" from the internet. It's rather weird, but yes, things disappear from the internet. The first one is the PMM specification.
